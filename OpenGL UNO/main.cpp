@@ -1,4 +1,4 @@
-#include "shader.h"
+#include "headers/shader.h"
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
@@ -38,7 +38,7 @@ int main() {
 
 	// Build and compile shader program
 	// --------------------------------
-	Shader ourShader("shader.vs", "shader.fs");
+	Shader ourShader("shaders/shader.vs", "shaders/shader.fs");
 
 	// Set up vertex data & buffers, and configure vertex attributes
 	// -------------------------------------------------------------
@@ -78,7 +78,7 @@ int main() {
 		// Handle input
 		// ------------
 		processInput(window);
-
+			
 		// Render
 		// ------
 		glClearColor(0.7f, 0.9f, 0.9f, 1.0f);
