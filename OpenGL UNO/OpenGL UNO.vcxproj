@@ -133,14 +133,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\Desktop\glad.c" />
+    <ClCompile Include="header-conversion.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers\shader.h" />
+    <ClInclude Include="headers\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="shaders\shader.fs" />
     <None Include="shaders\shader.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\awesomeface.png" />
+    <Image Include="textures\container.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

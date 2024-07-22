@@ -21,14 +21,28 @@
     <ClCompile Include="..\..\..\..\Desktop\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="header-conversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="headers\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\stb_image.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="shaders\shader.vs" />
     <None Include="shaders\shader.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\container.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\awesomeface.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
