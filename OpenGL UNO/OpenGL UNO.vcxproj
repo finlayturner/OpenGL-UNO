@@ -145,8 +145,11 @@
     <None Include="shaders\shader.vs" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\grass.jpg" />
     <Image Include="textures\awesomeface.png" />
+    <Image Include="textures\cobble.png" />
     <Image Include="textures\container.jpg" />
+    <Image Include="textures\grass.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

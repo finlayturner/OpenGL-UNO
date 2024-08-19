@@ -44,5 +44,14 @@
     <Image Include="textures\awesomeface.png">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="..\..\..\..\Downloads\grass.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\cobble.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
